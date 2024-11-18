@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "powermonitorlive_christo",
+    "password": "omejechristian",
+    "database": "powermonitorlive_iot",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "powermonitorlive_christo",
+    "password": "omejechristian",
+    "database": "powermonitorlive_iot",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "powermonitorlive_christo",
+    "password": "omejechristian",
+    "database": "powermonitorlive_iot",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}

@@ -1,0 +1,20 @@
+DirectoryIndex disabled
+RewriteEngine On
+
+RewriteRule ^$ http://talkingdevice.powermonitorlive.com:7000/ [P,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ http://talkingdevice.powermonitorlive.com:7000/$1 [P,L]
+
+RewriteRule ^$ https://talkingdevice.powermonitorlive.com:7100/ [P,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ https://talkingdevice.powermonitorlive.com:7100/$1 [P,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
